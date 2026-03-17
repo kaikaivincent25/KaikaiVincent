@@ -76,7 +76,7 @@ export default function Hero() {
             <div className="hero__eyebrow fade-up">
               <span className="hero__eyebrow-line" />
               <span className="hero__eyebrow-text">
-                BBIT Student · Co-operative University of Kenya
+                Tech · Innovation · Growth
               </span>
             </div>
 
