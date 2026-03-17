@@ -1,9 +1,6 @@
 import { useApi } from '../hooks/useApi'
 import './About.css'
 
-// ─── FALLBACK DATA ────────────────────────────────────────────────────────────
-// Shown when the backend API is not yet connected.
-// Replace these values with your real details.
 const FALLBACK = {
   name:     'Vincent Kaikai',
   bio:      `I am a passionate BBIT student at the Co-operative University of Kenya 
@@ -17,7 +14,7 @@ I can apply and grow my skills.`,
   email:    'vincentkaikai@gmail.com',
   github:   'https://github.com/kaikaivincent25',
   linkedin: 'https://linkedin.com/in/vincent-kaikai',
-  cv_url:   null,   // Set to your CV link once backend is live e.g. '/media/cv/vincent_cv.pdf'
+  cv_url:   null,   // Set  CV link once backend is live e.g. '/media/cv/vincent_cv.pdf'
 }
 // ─────────────────────────────────────────────────────────────────────────────
 
