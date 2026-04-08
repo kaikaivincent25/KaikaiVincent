@@ -3,26 +3,20 @@ import './About.css'
 
 const FALLBACK = {
   name:     'Vincent Kaikai',
-  bio:      `I am a passionate BBIT student at the Co-operative University of Kenya 
-with a strong interest in software development and cybersecurity. I enjoy 
-building robust, scalable web applications using modern technologies such as 
-Django REST Framework, React, and PostgreSQL. I am driven by a desire to solve 
-real-world problems through clean, efficient code and secure system design. 
-I am actively seeking internship opportunities and collaborative projects where 
-I can apply and grow my skills.`,
+  bio:      `I am a Junior Software Developer specializing in building robust, scalable web applications that seamlessly integrate technical solutions with business objectives. Leveraging modern technologies such as Django REST Framework, React, and PostgreSQL, I focus on solving complex real-world problems through clean, efficient code that drives business value. With a strong foundation in secure system design and cybersecurity principles, I am actively seeking roles and collaborative projects where I can deliver impactful results and continue to elevate my technical expertise.`,
   location: 'Nairobi, Kenya',
-  email:    'vincentkaikai@gmail.com',
+  email:    'kaikaivincent24@gmail.com',
   github:   'https://github.com/kaikaivincent25',
-  linkedin: 'https://linkedin.com/in/vincent-kaikai',
-  cv_url:   null,   // Set  CV link once backend is live e.g. '/media/cv/vincent_cv.pdf'
+  linkedin: null,   // Update with your actual LinkedIn URL when ready
+  cv_url:   null,   // Set CV link once backend is live e.g. '/media/cv/vincent_cv.pdf'
 }
 // ─────────────────────────────────────────────────────────────────────────────
 
 const getInfoRows = (d) => [
   { label: 'Full Name',      value: d.name },
-  { label: 'University',     value: 'Co-operative University of Kenya' },
-  { label: 'Programme',      value: 'Bachelor of Business Information Technology' },
-  { label: 'Specialisation', value: 'Software Development & Cybersecurity' },
+  /*{ label: 'University',     value: 'Co-operative University of Kenya' },
+  { label: 'Programme',      value: 'Bachelor of Business Information Technology' }, */
+  { label: 'Specialisation', value: 'Software Development & Business Intergrations' }, 
   { label: 'Location',       value: d.location },
   { label: 'Email',          value: d.email },
   { label: 'Status',         value: 'Available for Internships & Projects' },
@@ -30,9 +24,9 @@ const getInfoRows = (d) => [
 
 const HIGHLIGHTS = [
   { icon: '⚙', title: 'Backend',    desc: 'Django REST, PostgreSQL, Python'       },
-  { icon: '🖥', title: 'Frontend',   desc: 'React, JavaScript, Modern CSS'         },
-  { icon: '🔒', title: 'Security',   desc: 'Network security, Penetration testing' },
-  { icon: '☁', title: 'Deployment', desc: 'Render, Vercel, Git, CI/CD pipelines'  },
+  { icon: '🖥', title: 'Frontend',   desc: 'React, React Native, JavaScript, Modern CSS'         },
+  //{ icon: '🔒', title: 'Security',   desc: 'Network security, Penetration testing' },
+  { icon: '☁', title: 'Deployment', desc: 'Render, Vercel, GitHub, CI/CD pipelines'  },
 ]
 
 export default function About() {
