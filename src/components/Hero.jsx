@@ -7,13 +7,13 @@ import './Hero.css'
 // Replace with your real details. When backend is live these are ignored.
 const FALLBACK = {
   name:                'Vincent Kaikai',
-  bio:                 `Passionate BBIT student at the Co-operative University of Kenya 
-specialising in software development and cybersecurity. I build 
-robust full-stack web applications and secure systems that solve 
-real-world problems.`,
+  bio:                `Junior software developer with a strong foundation in full-stack web and mobile development 
+and a keen interest in cybersecurity. I specialise in building robust, scalable 
+applications using modern technologies such as Django REST Framework, React, React Native, and 
+PostgreSQL, with a focus on clean architecture and secure system design.`,
   github:              'https://github.com/kaikaivincent25',
-  linkedin:            'https://linkedin.com/in/vincent-kaikai',
-  email:               'vincentkaikai@gmail.com',
+  linkedin:            'null',
+  email:               'kaikaivincent24@gmail.com',
   cv_url:              null,   // e.g. '/media/cv/vincent_cv.pdf' once backend is live
   profile_picture_url: null,   // e.g. '/media/profile/vincent.jpg' once backend is live
 }
@@ -21,8 +21,8 @@ real-world problems.`,
 
 const ROLES = [
   'Software Developer',
-  'Cybersecurity Specialist',
-  'Full Stack Engineer',
+//  'Cybersecurity Specialist',
+//  'Full Stack Engineer',
   'API Architect',
 ]
 
