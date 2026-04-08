@@ -15,7 +15,7 @@ PostgreSQL, with a focus on clean architecture and secure system design.`,
   linkedin:            'null',
   email:               'kaikaivincent24@gmail.com',
   cv_url:              null,   // e.g. '/media/cv/vincent_cv.pdf' once backend is live
-  profile_picture_url: null,   // e.g. '/media/profile/vincent.jpg' once backend is live
+  profile_picture_url: '../assets/pc.jpg',   // e.g. '/media/profile/vincent.jpg' once backend is live
 }
 // ─────────────────────────────────────────────────────────────────────────────
 
