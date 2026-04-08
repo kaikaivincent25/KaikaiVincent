@@ -147,7 +147,7 @@ export default function Hero() {
                 <>
                   <img
                     src={profile.profile_picture_url}
-                    alt="Vincent Kaikai — Portfolio"
+                    alt="../assets/pc.jpg"
                     className="hero__photo-img"
                     onError={e => {
                       e.target.style.display = 'none'
