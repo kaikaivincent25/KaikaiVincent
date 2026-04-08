@@ -3,12 +3,21 @@ import './About.css'
 
 const FALLBACK = {
   name:     'Vincent Kaikai',
-  bio:      `I am a Junior Software Developer specializing in building robust, scalable web applications that seamlessly integrate technical solutions with business objectives. Leveraging modern technologies such as Django REST Framework, React, and PostgreSQL, I focus on solving complex real-world problems through clean, efficient code that drives business value. With a strong foundation in secure system design and cybersecurity principles, I am actively seeking roles and collaborative projects where I can deliver impactful results and continue to elevate my technical expertise.`,
+  title:    'Junior Software Developer',
+  bio:      `Junior software developer with a strong foundation in full-stack web and mobile development 
+and a keen interest in cybersecurity. I specialise in building robust, scalable 
+applications using modern technologies such as Django REST Framework, React, React Native, and 
+PostgreSQL, with a focus on clean architecture and secure system design. My 
+background in Business and Information Technology gives me a unique perspective 
+on bridging technical solutions with real-world business needs — enabling me to 
+build software that is not only functional, but strategically aligned with 
+organisational goals. I thrive in collaborative environments and am actively 
+seeking opportunities to contribute to innovative, impact-driven projects.`,
   location: 'Nairobi, Kenya',
   email:    'kaikaivincent24@gmail.com',
   github:   'https://github.com/kaikaivincent25',
-  linkedin: null,   // Update with your actual LinkedIn URL when ready
-  cv_url:   null,   // Set CV link once backend is live e.g. '/media/cv/vincent_cv.pdf'
+  linkedin: null,
+  cv_url:   null,  // Set CV link once backend is live e.g. '/media/cv/vincent_cv.pdf'
 }
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -26,7 +35,7 @@ const HIGHLIGHTS = [
   { icon: '⚙', title: 'Backend',    desc: 'Django REST, PostgreSQL, Python'       },
   { icon: '🖥', title: 'Frontend',   desc: 'React, React Native, JavaScript, Modern CSS'         },
   //{ icon: '🔒', title: 'Security',   desc: 'Network security, Penetration testing' },
-  { icon: '☁', title: 'Deployment', desc: 'Render, Vercel, GitHub, CI/CD pipelines'  },
+  { icon: '☁', title: 'Deployment', desc: 'Render, Vercel, GitHub'  },
 ]
 
 export default function About() {
