@@ -1,6 +1,7 @@
 import { useApi } from '../hooks/useApi'
 import { useState, useEffect } from 'react'
 import './Hero.css'
+import profilePic from '../assets/pc.jpg'  // Local fallback image for profile picture
 
 // ─── FALLBACK DATA ────────────────────────────────────────────────────────────
 // Shown when backend API is not yet connected.
@@ -15,7 +16,7 @@ PostgreSQL, with a focus on clean architecture and secure system design.`,
   linkedin:            'null',
   email:               'kaikaivincent24@gmail.com',
   cv_url:              null,   // e.g. '/media/cv/vincent_cv.pdf' once backend is live
-  profile_picture_url: '../assets/pc.jpg',   // e.g. '/media/profile/vincent.jpg' once backend is live
+  profile_picture_url: profilePic,   // e.g. '/media/profile/vincent.jpg' once backend is live
 }
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -147,7 +148,7 @@ export default function Hero() {
                 <>
                   <img
                     src={profile.profile_picture_url}
-                    alt="../assets/pc.jpg"
+                    alt="Vincent Kaikai"
                     className="hero__photo-img"
                     onError={e => {
                       e.target.style.display = 'none'
@@ -177,10 +178,6 @@ export default function Hero() {
               <div className="hero__photo-strip" />
             </div>
 
-            <div className="hero__badge">
-              <div className="hero__badge-title">CUK</div>
-              <div className="hero__badge-sub">BBIT · Nairobi</div>
-            </div>
           </div>
 
         </div>
