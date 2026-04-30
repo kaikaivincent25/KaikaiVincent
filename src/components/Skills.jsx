@@ -5,27 +5,23 @@ import './Skills.css' // Added CSS import
 const SKILL_DATA = {
   grouped: {
     'Backend Development': [
-      { id: 1, name: 'Python / Django',         proficiency: 82 },
-      { id: 2, name: 'Django REST Framework',   proficiency: 78 },
-      { id: 3, name: 'JWT Authentication',      proficiency: 75 },
-      { id: 4, name: 'RESTful API Design',      proficiency: 80 },
+      { id: 1, name: 'Python / Django',         proficiency: 70 },
+      { id: 2, name: 'Django REST Framework',   proficiency: 70 },
+      { id: 3, name: 'JWT Authentication',      proficiency: 70 },
+      { id: 4, name: 'RESTful API Design',      proficiency: 70 },
     ],
     'Frontend Development': [
-      { id: 5, name: 'React / Vite',            proficiency: 80 },
-      { id: 6, name: 'JavaScript (ES6+)',       proficiency: 78 },
-      { id: 7, name: 'HTML5 & CSS3',            proficiency: 85 },
-      { id: 8, name: 'React Native / Expo',     proficiency: 68 },
+      { id: 5, name: 'React / Vite',            proficiency: 70 },
+      { id: 6, name: 'JavaScript (ES6+)',       proficiency: 70 },
+      { id: 7, name: 'HTML5 & CSS3',            proficiency: 70 },
+      { id: 8, name: 'React Native / Expo',     proficiency: 70 },
     ],
     'Database': [
-      { id: 9,  name: 'PostgreSQL',             proficiency: 76 },
-      { id: 10, name: 'SQL & Query Design',     proficiency: 74 },
-      { id: 11, name: 'Django ORM',             proficiency: 78 },
+      { id: 9,  name: 'PostgreSQL',             proficiency: 70 },
+      { id: 10, name: 'SQL & Query Design',     proficiency: 70 },
+      { id: 11, name: 'Django ORM',             proficiency: 70 },
     ],
-    'Cybersecurity': [
-      { id: 12, name: 'IS Auditing (ISACA)',    proficiency: 72 },
-      { id: 13, name: 'COBIT Framework',        proficiency: 68 },
-      { id: 14, name: 'Network Security',       proficiency: 65 },
-    ],
+    
   },
 }
 
@@ -36,7 +32,7 @@ const CATEGORY_META = {
   'Backend Development':  { icon: '⚙',  accent: '#C9A84C' },
   'Frontend Development': { icon: '🖥',  accent: '#C9A84C' },
   'Database':             { icon: '🗄',  accent: '#C9A84C' },
-  'Cybersecurity':        { icon: '🔒',  accent: '#C9A84C' },
+ // 'Cybersecurity':        { icon: '🔒',  accent: '#C9A84C' },
 }
 
 const STATS = [
