@@ -92,7 +92,7 @@ export default function Footer() {
                   10.132 2h3.753l2.443 4.232-2.443 4.232h-3.753zM12 2h3.943l5.557 9.617-2.443
                   4.232L13.5 7.617 12 5.232 12 2zm3.943 0L22.5 12.385l-2.443 4.232-6.057-10.485L15.943 2z"/>
               </svg>
-              Drive
+              Personal Info
               <span className="ft__social-arrow">↗</span>
             </a>
           </div>
